@@ -13,10 +13,14 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("My Sources", 170, 200);
+    text("Say No", 179, 229); 
   }
-  
+    if (answer == 5) {
+    text("My Sources", 170, 200);
+    text("Say Yes!", 179, 229); 
+  }
+
 };
 
 mouseClicked = function(){
